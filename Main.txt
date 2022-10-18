@@ -61,7 +61,7 @@ PlaceSection:NewButton("Plot Place", "Buy Housing", function()
 end)
 
 PlaceSection:NewButton("Inside museum vault", "Expensive Egg worth 4 pounds", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-362.431396, 7.14142942, 133.73468, -0.999645531, -5.48147039e-09, 0.0266239066, -5.48095969e-09, 1, 9.21561161e-11, -0.0266239066, -5.38011094e-11, -0.999645531)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(18.6113472, 7.14142942, -96.5589828, -0.0604800656, -4.96777233e-08, -0.998169422, -9.0851394e-08, 1, -4.42640555e-08, 0.998169422, 8.80079938e-08, -0.0604800656)
 end)
 
 PlaceSection:NewButton("Doctors office", "Heal urself", function()
