@@ -67,3 +67,18 @@ end)
 PlaceSection:NewButton("Doctors office", "Heal urself", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-678.967712, 7.14142942, -239.117783, 0.999592781, -5.82918713e-10, 0.0285349898, 1.9712918e-09, 1, -4.86269798e-08, -0.0285349898, 4.86634306e-08, 0.999592781)
 end)
+
+local Tab = Window:NewTab("Other")
+local OtherSection = Tab:NewSection("Player Mods")
+
+OtherSection:NewSlider("Walk Speed", "drag and go faster", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+OtherSection:NewButton("Infinite Yield", "Admin Cmds", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+OtherSection:NewButton("Simplicity", "Has some good things", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplit/main/main"))()
+end)
