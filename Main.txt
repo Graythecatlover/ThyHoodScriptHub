@@ -82,3 +82,7 @@ end)
 OtherSection:NewButton("Simplicity", "Has some good things", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplit/main/main"))()
 end)
+
+OtherSection:NewButton("Teleport Gui", "Teleport to people", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end)
